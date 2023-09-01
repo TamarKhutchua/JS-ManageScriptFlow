@@ -48,3 +48,8 @@ switch (5 - 2) {
     day = "Weekend";
 }
 console.log("It is " + day);
+
+let i = 0;
+for (i = 1; i < 11; i++) {
+  console.log("Iteration Number: " + i);
+}
