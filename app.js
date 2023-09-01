@@ -49,7 +49,13 @@ switch (5 - 2) {
 }
 console.log("It is " + day);
 
-let i = 0;
-for (i = 1; i < 11; i++) {
-  console.log("Iteration Number: " + i);
+// let i = 0;
+// for (i = 1; i < 11; i++) {
+//   console.log("Iteration Number: " + i);
+// }
+
+let i = 10;
+while (i > -1) {
+  console.log("Countdown Number: " + i);
+  i--;
 }
