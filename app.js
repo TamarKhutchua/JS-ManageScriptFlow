@@ -1,13 +1,28 @@
-let flag = true;
+// let flag = true;
+// if (!flag) {
+//   console.log("Power is OFF");
+// }
+// if (flag) {
+//   console.log("Power is ON");
+// }
+// if (7 < 2) {
+//   console.log("Failure");
+// }
+// if (7 > 2) {
+//   console.log("Success");
+// }
+
+let flag = false;
+const num = 10;
 if (!flag) {
   console.log("Power is OFF");
-}
-if (flag) {
+} else {
   console.log("Power is ON");
 }
-if (7 < 2) {
-  console.log("Failure");
-}
-if (7 > 2) {
-  console.log("Success");
+if (num === 5) {
+  console.log("Number is Five");
+} else if (num === 10) {
+  console.log("Number is Ten");
+} else {
+  console.log("Number is Neither Five nor Ten");
 }
