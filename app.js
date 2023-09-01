@@ -54,8 +54,14 @@ console.log("It is " + day);
 //   console.log("Iteration Number: " + i);
 // }
 
-let i = 10;
-while (i > -1) {
-  console.log("Countdown Number: " + i);
-  i--;
-}
+// let i = 10;
+// while (i > -1) {
+//   console.log("Countdown Number: " + i);
+//   i--;
+// }
+
+let i = 2;
+do {
+  i *= 2;
+  console.log("Multiplied Number: " + i);
+} while (i < 1000);
