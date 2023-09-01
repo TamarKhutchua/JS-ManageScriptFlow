@@ -27,27 +27,27 @@ if (num === 5) {
   console.log("Number is Neither Five nor Ten");
 }
 
-let day;
-switch (5 - 2) {
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  default:
-    day = "Weekend";
-}
-console.log("It is " + day);
+// let day;
+// switch (5 - 2) {
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   default:
+//     day = "Weekend";
+// }
+// console.log("It is " + day);
 
 // let i = 0;
 // for (i = 1; i < 11; i++) {
